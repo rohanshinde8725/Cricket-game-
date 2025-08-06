@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  font-family: 'Arial', sans-serif;
+}
+
+#container {
+  height: 560px;
+  width: 480px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.05);
+  background-color: white;
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5); 
+  padding-top: 20px;
+}
+
+.heading {
+  color: #00ffcc;
+  font-size: 28px;
+}
+
+div button {
+  padding: 18px 22px;
+  margin: 15px 8px;
+  background: linear-gradient(135deg, #4caf50, #2e7d32);
+  border-radius: 50%;
+  border: none;
+  transition: 0.3s ease-in-out;
+}
+
+div button:hover {
+  cursor: pointer;
+  background: linear-gradient(135deg, #66ff99, #00cc66);
+  transform: scale(1.1);
+}
+
+.choice-img {
+  height: 60px;
+  width: 60px;
+}
+
+.reset {
+  padding: 8px 20px;
+  border: 2px solid #00ffcc;
+  background: transparent;
+  color: teal;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 15px;
+  transition: 0.3s ease-in-out;
+}
+
+.reset:hover {
+  background: #00ffcc;
+  color: black;
+  cursor: pointer;
+}
+
+#result-container {
+  height: 220px;
+  width: 320px;
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+#result-container h1 {
+  font-size: 22px;
+  color: #ffcc00;
+  margin-bottom: 10px;
+}
+
+#result-container h3 {
+  font-size: 18px;
+  color: black;
+  font-weight: 500;
+  margin: 8px 0;
+}
